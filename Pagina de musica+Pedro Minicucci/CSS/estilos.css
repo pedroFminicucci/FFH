@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0;
 }
-
-
+#navbarNav{
+    justify-content: center;
+}
+.navbar-nav li{
+    padding-left: 50px;
+}
 .fondo {
-    background-image: url("/Imagenes/asdasd.jpg");
+    background-image: url("../Imagenes/asdasd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .fondo2 {
-    background-image: url("/Imagenes/quienessomos.jpg")
+    background-image: url("../Imagenes/quienessomos.jpg")
 }
 .fondo3 {
     background-color: rgb(102, 102, 102);
@@ -92,7 +96,10 @@ footer {
     background-color: rgb(245, 120, 120);
     margin: 50px 30px;
 }
-.form {
+.mb-3{
+    background-color: rgb(181, 236, 117);
+}
+/* .form {
     min-width: 200px;
     flex: 1;
     text-align: center;
@@ -106,3 +113,4 @@ footer {
     padding: 7px;
     margin: 6px 0;
 }
+ */
